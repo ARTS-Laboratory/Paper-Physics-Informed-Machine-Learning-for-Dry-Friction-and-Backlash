@@ -1,0 +1,1 @@
+This folder contains the harmonic and earthquake excitation data for numerical and experimental case studies.
