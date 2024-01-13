@@ -1,5 +1,5 @@
 # Physics-informed Machine Learning for Dry Friction and Backlash Modeling in Structural Control Systems
-This GitHub repository accompanies the paper ___, and contains a simple reproduction of the methodology demonstrated in that paper.
+This GitHub repository accompanies the paper "Physics-Informed Machine Learning for Dry Friction and Backlash Modeling in Structural Control Systems", and contains a reproduction of the methodology demonstrated in that paper.
 
 ## Licensing and Citation
 
