@@ -15,8 +15,8 @@ from plots import experimental_harmonic_plot,\
 run all scripts
 """
 if __name__ == '__main__':
-    train_experimental_model_loop(epochs=1)
-    train_numerical_model(epochs=1  )
+    train_experimental_model_loop()
+    train_numerical_model()
     
     run_experimental()
     run_numerical()

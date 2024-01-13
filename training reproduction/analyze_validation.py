@@ -140,7 +140,7 @@ def analyze_experimental():
     np.save("./model predictions/metrics/expharmonic.npy", exp_harm)
     np.save("./model predictions/metrics/expvalidation.npy", exp_eq)
 def analyze_numerical():
-    #%% multiphysics harmonic table
+    #%% numerical harmonic table
     arr_true = np.load("./datasets/numerical_generated_data.npy")
     arr_pred = np.load("./model predictions/numerical/predictiondata.npy")
     arr_lugre_pred = np.load("./model predictions/numerical standard/F_pred.npy")
@@ -181,7 +181,7 @@ def analyze_numerical():
     for j, metric in enumerate(metrics):
         multi_harm[0, -1, j] = metric(true_tot, arr_pred.flatten())
         multi_harm[1, -1, j] = metric(true_tot, arr_lugre_pred.flatten()*1000)
-    #%% multiphysics earthquake table
+    #%% numerical earthquake table
     val_names = \
         ['DuzceDBE',
           'DuzceMCE',
